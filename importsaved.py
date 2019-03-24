@@ -45,4 +45,4 @@ for item in reversed_list:
     else:
         item_id = item.replace("Submission ", "")
         print('Saving submission {}'.format(item_id))
-        new_account.submission(id=id2).save()
+        new_account.submission(id=item_id).save()
